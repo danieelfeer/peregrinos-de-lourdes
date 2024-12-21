@@ -9,7 +9,7 @@ function Works() {
   return (
     <>
       <DefaultHeader
-        imageSrc="public/jovens-rodizio-de-pizza.png" // Caminho correto da imagem
+        imageSrc="./jovens-rodizio-de-pizza.png" // Caminho correto da imagem
         title="Trabalhos"
         icon={LuHeartHandshake} // Passando o ícone de coração
       />
