@@ -10,7 +10,7 @@ import Contribute from './pages/Contribute'
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/peregrinos-de-lourdes/">
       <NavMenu /> {/* Navegação global */}
       
       <Routes>

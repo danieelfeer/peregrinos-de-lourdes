@@ -29,7 +29,7 @@ const Welcome = () => {
       <div>
         <img 
           className="w-[30rem] h-auto rounded-3xl shadow-lg" 
-          src="../../public/jovens-rodizio-de-pizza.png" 
+          src="public/jovens-rodizio-de-pizza.png" 
           alt="Foto dos Jovens" 
         />
       </div>

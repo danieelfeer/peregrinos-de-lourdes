@@ -49,7 +49,7 @@ const NavMenu = () => {
               className={`text-black hover:text-red-blood flex items-center ${activeLink === '/' ? 'text-red-blood' : ''}`}
               onClick={() => handleLinkClick('/')}
             >
-              {activeLink === '/' && <img src="/cruz-vermelha.svg" alt="Ícone Home" className="mr-2 w-10 h-10" />}
+              {activeLink === '/' && <img src="public/cruz-vermelha.svg" alt="Ícone Home" className="mr-2 w-10 h-10" />}
               Início
             </Link>
           </li>
@@ -59,7 +59,7 @@ const NavMenu = () => {
               className={`text-black hover:text-red-blood flex items-center ${activeLink === '/trabalhos' ? 'text-red-blood' : ''}`}
               onClick={() => handleLinkClick('/trabalhos')}
             >
-              {activeLink === '/trabalhos' && <img src="/cruz-vermelha.svg" alt="Ícone Trabalhos" className="mr-2 w-10 h-10" />}
+              {activeLink === '/trabalhos' && <img src="public/cruz-vermelha.svg" alt="Ícone Trabalhos" className="mr-2 w-10 h-10" />}
               Trabalhos
             </Link>
           </li>
@@ -69,7 +69,7 @@ const NavMenu = () => {
               className={`text-black hover:text-red-blood flex items-center ${activeLink === '/peregrinacoes' ? 'text-red-blood' : ''}`}
               onClick={() => handleLinkClick('/peregrinacoes')}
             >
-              {activeLink === '/peregrinacoes' && <img src="/cruz-vermelha.svg" alt="Ícone Peregrinações" className="mr-2 w-10 h-10" />}
+              {activeLink === '/peregrinacoes' && <img src="public/cruz-vermelha.svg" alt="Ícone Peregrinações" className="mr-2 w-10 h-10" />}
               Peregrinações
             </Link>
           </li>
@@ -79,7 +79,7 @@ const NavMenu = () => {
               className={`text-black hover:text-red-blood flex items-center ${activeLink === '/sobre' ? 'text-red-blood' : ''}`}
               onClick={() => handleLinkClick('/sobre')}
             >
-              {activeLink === '/sobre' && <img src="/cruz-vermelha.svg" alt="Ícone Sobre" className="mr-2 w-10 h-10" />}
+              {activeLink === '/sobre' && <img src="public/cruz-vermelha.svg" alt="Ícone Sobre" className="mr-2 w-10 h-10" />}
               Sobre Nós
             </Link>
           </li>
@@ -89,7 +89,7 @@ const NavMenu = () => {
               className={`text-black hover:text-red-blood flex items-center ${activeLink === '/contribuir' ? 'text-red-blood' : ''}`}
               onClick={() => handleLinkClick('/contribuir')}
             >
-              {activeLink === '/contribuir' && <img src="/cruz-vermelha.svg" alt="Ícone Contribuir" className="mr-2 w-10 h-10" />}
+              {activeLink === '/contribuir' && <img src="public/cruz-vermelha.svg" alt="Ícone Contribuir" className="mr-2 w-10 h-10" />}
               Seja um Apoiador
             </Link>
           </li>

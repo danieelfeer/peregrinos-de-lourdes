@@ -5,8 +5,8 @@ const Footer = () => {
     <footer className="flex flex-col align-middle justify-center gap-11 border-t-2 border-black text-xl">
       <div className="flex flex-col sm:flex-row sm:justify-around gap-10 lg:py-14 py-7 lg:px-4 px-4 sm:p-6">
         <div className='footer-col'>
-          <div className='w-20'>
-            <img src="../../public/pnsl-logo.svg" alt="logo" />
+          <div className='w-23'>
+            <a href="/"><img className='w-32' src="public/pnsl-logo.svg" alt="logo" /></a>
           </div>
         </div>
 
@@ -23,17 +23,17 @@ const Footer = () => {
           <a href="/" target="_self" rel="noopener noreferrer">
             Início
           </a>
-          <a href="/trabalhos" target="_self" rel="noopener noreferrer">
+          <a href="/peregrinos-de-lourdes/trabalhos" target="_self" rel="noopener noreferrer">
             Trabalhos
           </a>
-          <a href="/peregrinacoes" target="_self" rel="noopener noreferrer">
+          <a href="/peregrinos-de-lourdes/peregrinacoes" target="_self" rel="noopener noreferrer">
             Peregrinações
           </a>
           <a href="sobre" target="_self" rel="noopener noreferrer">
             Sobre Nós
           </a>
 
-          <a href="/contribuir" target="_self" rel="noopener noreferrer">
+          <a href="/peregrinos-de-lourdes/contribuir" target="_self" rel="noopener noreferrer">
             Seja um apoiador
           </a>
         </div>

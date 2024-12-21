@@ -9,7 +9,7 @@ function Works() {
   return (
     <>
       <DefaultHeader
-        imageSrc="/jovens-rodizio-de-pizza.png" // Caminho correto da imagem
+        imageSrc="public/jovens-rodizio-de-pizza.png" // Caminho correto da imagem
         title="Trabalhos"
         icon={LuHeartHandshake} // Passando o ícone de coração
       />
@@ -30,7 +30,7 @@ function Works() {
         {/* Aqui chamamos o novo container com os cards de produto */}
         <ProductCardsContainer />
 
-        <TitleWithtext title={"Seja um Colaborador!"} text={"Após as missas, vendemos doces, comidas, bebidas, materiais religiosos e divulgamos nossos próximos eventos. Caso queira ajudar nas vendas, fazendo a doação de produtos, será muito bem-vindo! Sua contribuição é essencial para nossos projetos."} link={'/contribuir'}/>
+        <TitleWithtext title={"Seja um Colaborador!"} text={"Após as missas, vendemos doces, comidas, bebidas, materiais religiosos e divulgamos nossos próximos eventos. Caso queira ajudar nas vendas, fazendo a doação de produtos, será muito bem-vindo! Sua contribuição é essencial para nossos projetos."} link={'/peregrinos-de-lourdes/contribuir'}/>
       </main>
     </>
   );

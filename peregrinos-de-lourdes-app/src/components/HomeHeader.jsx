@@ -7,7 +7,7 @@ const HomeHeader = () => {
       <div className="relative w-full h-[90vh]">
         <img
           className="w-full h-full object-cover object-top"
-          src="/nossa-senhora-de-lourdes-compressed.png" // Caminho correto
+          src="public/nossa-senhora-de-lourdes-compressed.png" // Caminho correto
           alt="Nossa Senhora de Lourdes"
         />
         {/* Camada escura e título centralizado */}
@@ -18,7 +18,7 @@ const HomeHeader = () => {
             <div className="relative mb-4 w-full flex justify-end">
               <img
                 className="w-[50%] sm:w-[30%] md:w-[25%] lg:w-[20%]" // Responsividade para a imagem
-                src="../../public/pnsl-logo-white.svg"
+                src="public/pnsl-logo-white.svg"
                 alt="logo"
               />
             </div>
@@ -37,7 +37,7 @@ const HomeHeader = () => {
       {/* Div para o ícone abaixo do título */}
       <div className="flex items-center justify-center h-[10vh]">
         <div className="w-10">
-          <img src="../../public/pnsl-logo.svg" alt="logo" />
+          <img src="public/pnsl-logo.svg" alt="logo" />
         </div>
       </div>
     </div>

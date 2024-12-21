@@ -9,7 +9,7 @@ function Pilgrimages() {
   return (
     <>
         <DefaultHeader
-        imageSrc={"../../public/peregrinacoes.png"}
+        imageSrc={"public/peregrinacoes.png"}
         title={"Peregrinações"}
         icon={FaRegMap}
         />
@@ -37,7 +37,7 @@ function Pilgrimages() {
             <PilgrimageCard 
                 year={"2022"}
                 emojiCountry={'flagBrazil'}
-                image={"../../public/pilgrimages/encontro-fortaleza.jpg"}
+                image={"public/pilgrimages/encontro-fortaleza.jpg"}
                 city={"Fortaleza-CE"}
                 description={"Encontro Vocacional Regional"}
                 link={'https://www.instagram.com/p/CgsrEf9t57b/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=='}
@@ -49,10 +49,10 @@ function Pilgrimages() {
             <PilgrimageCard 
                 year={"2025"}
                 emojiCountry={'flagItaly'}
-                image={"../../public/rome-image.png"}
+                image={"public/rome-image.png"}
                 city={"Roma, Itália"}
                 description={"Ano Jubilar"}
-                link={'/#contagem_regressiva'}
+                link={'/peregrinos-de-lourdes/#contagem_regressiva'}
                 target={'_self'}
             />
 
@@ -62,7 +62,7 @@ function Pilgrimages() {
                 image={"https://img.cancaonova.com/cnimages/canais/uploads/sites/11/2024/09/logotipo-jmj-seul-2027-_-foto-reproducao-vatican-news-youtube.png"}
                 city={"Seoul, Koréia do Sul"}
                 description={"Jornada Mundial da Juventude (JMJ) 2027"}
-                link={'/contribuir'}
+                link={'/peregrinos-de-lourdes/contribuir'}
                 target={'_self'}
             />
 
