@@ -17,6 +17,8 @@ export default {
       fontFamily: {
         dm_sans: ['DM Sans', 'sans-serif'],
         darker_grotesque: ['Darker Grotesque', 'sans-serif'], 
+        finder: ['Finder', 'sans-serif'],
+        bebasNeue: ['Bebas Neue', 'sans-serif']
       },
     },
   },

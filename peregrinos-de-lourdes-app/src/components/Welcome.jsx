@@ -3,7 +3,7 @@ import SocialButtons from './SocialButtons';
 
 const Welcome = () => {
   return (
-    <div className="flex flex-col lg:flex-row sm:flex-col items-center justify-between py-8 gap-14">
+    <div className="flex flex-col lg:flex-row sm:flex-col items-center justify-between pb-8 gap-14">
       {/* Seção à esquerda (Título, Emoji e Texto) */}
       <div className="flex flex-col items-center max-w-2xl">
         <h1 className="font-darker_grotesque font-bold lg:text-6xl md:text-6xl text-[3.5rem] flex items-center">

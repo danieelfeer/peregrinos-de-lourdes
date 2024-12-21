@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <footer className="flex flex-col align-middle justify-center gap-11 border-t-2 border-black">
+    <footer className="flex flex-col align-middle justify-center gap-11 border-t-2 border-black text-xl">
       <div className="flex flex-col sm:flex-row sm:justify-around gap-10 lg:py-14 py-7 lg:px-4 px-4 sm:p-6">
         <div className='footer-col'>
           <div className='w-20'>
@@ -15,28 +15,35 @@ const Footer = () => {
           <p className='uppercase'>Paróquia Nossa Senhora de Lourdes</p>
           <p>St. G Norte - Taguatinga, Brasília - DF</p>
           <a href="mailto:">jmjpnsl.portugal@gmail.com</a>
-          <a href="tel:+55">(61) 9 9999-9999</a>
+          <a href="tel:+55">(61)99943-9655</a>
         </div>
 
         <div className="footer-col">
           <h4 className='footer-title'>Links</h4>
-          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
-            Facebook
+          <a href="/" target="_self" rel="noopener noreferrer">
+            Início
           </a>
-          <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
-            Twitter
+          <a href="/trabalhos" target="_self" rel="noopener noreferrer">
+            Trabalhos
           </a>
-          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
-            Instagram
+          <a href="/peregrinacoes" target="_self" rel="noopener noreferrer">
+            Peregrinações
+          </a>
+          <a href="sobre" target="_self" rel="noopener noreferrer">
+            Sobre Nós
+          </a>
+
+          <a href="/contribuir" target="_self" rel="noopener noreferrer">
+            Seja um apoiador
           </a>
         </div>
 
         <div className="footer-col">
-          <h4 className='footer-title'>Media</h4>
-          <a href="https://www.instagram.com/neocat_pnsl" target="_blank" rel="instagram">
+          <h4 className='footer-title'>Mídia</h4>
+          <a href="https://www.instagram.com/peregrinos_de_lourdes/" target="_blank" rel="instagram">
             Instagram
           </a>
-          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.facebook.com/profile.php?id=61559487751408" target="_blank" rel="noopener noreferrer">
             Facebook
           </a>
         </div>

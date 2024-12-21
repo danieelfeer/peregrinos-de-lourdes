@@ -14,6 +14,7 @@ const NavMenu = () => {
   const handleLinkClick = (link) => {
     setActiveLink(link);
     setOpen(false); // Fechar o menu após clicar no link
+    window.scrollTo(0, 0); // Rolar para o topo da página
   };
 
   return (

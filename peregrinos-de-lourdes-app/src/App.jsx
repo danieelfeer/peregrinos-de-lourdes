@@ -4,6 +4,9 @@ import NavMenu from './components/NavMenu';
 import Home from './pages/Home';
 import Footer from './components/Footer';
 import Works from './pages/Works';
+import Pilgrimages from './pages/Pilgrimages';
+import AboutUs from './pages/AboutUs';
+import Contribute from './pages/Contribute'
 
 const App = () => {
   return (
@@ -14,11 +17,9 @@ const App = () => {
         {/* Defina suas rotas aqui */}
         <Route path="/" element={<Home />} />
         <Route path="/trabalhos" element={<Works />} />
-        {/*
-        <Route path="/peregrinacoes" element={<Peregrinacoes />} />
-        <Route path="/sobre" element={<Sobre />} />
-        <Route path="/contribuir" element={<Contribuir />} />
-        */}
+        <Route path="/peregrinacoes" element={<Pilgrimages/>} />
+        <Route path="/sobre" element={<AboutUs />} />
+        <Route path="/contribuir" element={<Contribute />} />
       </Routes>
 
       <Footer />

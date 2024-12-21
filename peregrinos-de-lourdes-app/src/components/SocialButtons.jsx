@@ -1,12 +1,12 @@
 import React from 'react';
-import { FaInstagram, FaWhatsapp, FaFacebook, FaEnvelope } from 'react-icons/fa'; // Adicionando o ícone do Gmail
+import { FaInstagram, FaWhatsapp, FaFacebook, FaEnvelope } from 'react-icons/fa';
 
 const SocialButtons = ({ socialLinks, size = 'w-8' }) => {
   return (
     <div className="flex space-x-8 justify-center">
       {socialLinks.instagram === 'on' && (
         <a 
-          href="https://instagram.com" 
+          href="https://www.instagram.com/peregrinos_de_lourdes/" 
           target="_blank" 
           rel="noopener noreferrer"
           className="social-link"
@@ -16,7 +16,7 @@ const SocialButtons = ({ socialLinks, size = 'w-8' }) => {
       )}
       {socialLinks.whatsapp === 'on' && (
         <a 
-          href="https://wa.me" 
+          href="https://wa.me/5561999439655" 
           target="_blank" 
           rel="noopener noreferrer"
           className="social-link"
@@ -26,7 +26,7 @@ const SocialButtons = ({ socialLinks, size = 'w-8' }) => {
       )}
       {socialLinks.facebook === 'on' && (
         <a 
-          href="https://facebook.com" 
+          href="https://www.facebook.com/profile.php?id=61559487751408" 
           target="_blank" 
           rel="noopener noreferrer"
           className="social-link"
@@ -34,14 +34,14 @@ const SocialButtons = ({ socialLinks, size = 'w-8' }) => {
           <FaFacebook className={`${size} h-auto text-black`} />
         </a>
       )}
-      {socialLinks.gmail === 'on' && ( // Adicionando a lógica para o Gmail
+      {socialLinks.gmail === 'on' && (
         <a 
-          href="mailto:example@gmail.com" // Link do Gmail para enviar email
+          href="mailto:jmjpnsl.portugal@gmail.com" 
           target="_blank" 
           rel="noopener noreferrer"
           className="social-link"
         >
-          <FaEnvelope className={`${size} h-auto text-black`} /> {/* Ícone do Gmail */}
+          <FaEnvelope className={`${size} h-auto text-black`} />
         </a>
       )}
     </div>

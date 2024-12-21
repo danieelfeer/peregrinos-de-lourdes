@@ -35,7 +35,7 @@ const HomeHeader = () => {
       </div>
 
       {/* Div para o ícone abaixo do título */}
-      <div className="flex justify-center pt-6 h-[10vh]">
+      <div className="flex items-center justify-center h-[10vh]">
         <div className="w-10">
           <img src="../../public/pnsl-logo.svg" alt="logo" />
         </div>

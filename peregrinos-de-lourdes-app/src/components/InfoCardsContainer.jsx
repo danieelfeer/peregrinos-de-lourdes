@@ -1,17 +1,18 @@
 import React from 'react';
-import InfoCard from './InfoCard'; // Seu componente de card
+import InfoCard from './InfoCard';
+import { FaExternalLinkAlt } from "react-icons/fa";
 
 const InfoCardsContainer = () => {
   // Dados dos cards
   const cardsData = [
-    { title: 'Card 1', description: 'Descrição do card 1', image: '../../public/icone-sagrada-familia.png', link: '#', buttonText: 'Saiba mais', size: 'w-[300px] h-96'},
-    { title: 'Card 2', description: 'Descrição do card 2', image: '../../public/virgem-do-silencio.png', link: '#', buttonText: 'Saiba mais', size: 'w-[300px] h-96' },
-    { title: 'Card 3', description: 'Descrição do card 3', image: '../../public/icone-cristo-ressucitado.png', link: '#', buttonText: 'Saiba mais', size: 'w-[300px] h-96'},
+    { title: 'Peregrinações', description: 'Dê uma olhada nos lugares em que já peregrinamos!', image: '../../public/icone-sagrada-familia.png', link: '/peregrinacoes', buttonText: 'Saiba mais', size: 'w-[300px] h-96'},
+    { title: 'Nossos Trabalhos', description: 'Fique de olho no que estamos trablhando! Não perca, pois sempre vem novidades muito boas!', image: '../../public/virgem-do-silencio.png', link: '/trabalhos', buttonText: 'Saiba mais', size: 'w-[300px] h-96' },
+    { title: 'Nossa História', description: 'Conheça nossa missão e nossa história!', image: '../../public/icone-cristo-ressucitado.png', link: '/sobre', buttonText: 'Saiba mais', size: 'w-[300px] h-96'},
     // Adicione mais cards aqui, se necessário
   ];
 
   return (
-    <div className="flex overflow-x-auto py-16 space-x-4 ">
+    <div className="flex overflow-x-auto py-5 space-x-4 ">
       {cardsData.map((card, index) => (
         <div className="flex-shrink-0 min-w-[300px]" key={index}>
           <InfoCard
@@ -21,6 +22,7 @@ const InfoCardsContainer = () => {
             link={card.link}
             buttonText={card.buttonText}
             size={card.size} 
+            target={'_self'}
           />
         </div>
       ))}

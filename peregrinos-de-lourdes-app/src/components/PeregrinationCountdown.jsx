@@ -1,10 +1,10 @@
 import React, { useEffect, useState, useRef } from 'react';
-import CustomButton from './CustomButton';
-import InfoCard from './InfoCard'; // Importando o componente InfoCard
+import InfoCard from './InfoCard'; 
+import { FaExternalLinkAlt } from "react-icons/fa";
 
 const PeregrinationCountdown = () => {
   // Data da próxima peregrinação
-  const nextPilgrimageDate = new Date('2025-06-01'); // Ajuste conforme necessário
+  const nextPilgrimageDate = new Date('2025-07-28'); // Ajuste conforme necessário
   
   // Estado para armazenar o número de dias restantes
   const [daysRemaining, setDaysRemaining] = useState(0);
@@ -45,7 +45,7 @@ const PeregrinationCountdown = () => {
           countUp(); // Inicia a contagem
         }
       },
-      { threshold: 0.5 } // Inicia quando 50% da seção estiver visível
+      { threshold: 0.2 } // Inicia quando 20% da seção estiver visível
     );
 
     if (sectionRef.current) {
@@ -66,7 +66,7 @@ const PeregrinationCountdown = () => {
       description:
         'O Jubileu é um ano especial na Igreja Católica, dedicado ao perdão, à misericórdia e à renovação espiritual. Durante esse período, os fiéis têm a oportunidade de receber indulgências. Um dos principais símbolos do Jubileu é a Porta Santa, uma porta especial nas basílicas, como a de São Pedro em Roma, que é aberta apenas durante o Ano Santo. Atravessar essa porta representa uma jornada de fé e um convite ao encontro com a graça de Deus.',
       image: '../../public/rome-image.png', // Aqui é a imagem do card
-      link: '#',
+      link: 'https://www.iubilaeum2025.va/pt.html',
       buttonText: 'Saiba mais',
       size: 'lg:w-[800px] w-[90vw] lg:h-[500px] h-auto lg:p-10 md:p-10 py-10 ', // Tamanho do card
     },
@@ -79,7 +79,7 @@ const PeregrinationCountdown = () => {
 
       {/* Texto explicativo */}
       <p className="font-dm_sans text-xl mb-6 opacity-80">
-        Falta pouco tempo para o ano jubilar em Roma 🇮🇹
+        Falta pouco tempo para o Jubileu dos Jovens em Roma 🇮🇹
       </p>
 
       {/* Contagem regressiva */}
@@ -101,6 +101,7 @@ const PeregrinationCountdown = () => {
               link={card.link}
               buttonText={card.buttonText}
               size={card.size}
+              icon={<FaExternalLinkAlt/>}
             />
           </div>
         ))}

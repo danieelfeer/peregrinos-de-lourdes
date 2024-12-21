@@ -1,31 +1,37 @@
-    @tailwind base;
-    @tailwind components;
-    @tailwind utilities;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-    *{
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
+@font-face {
+    font-family: 'Finder';
+    src: url('./assets/fonts/Finder.otf') format('opentype');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth
+}
+
+main{
+    @apply max-w-6xl mx-auto px-6 py-12;
+}
+
+@layer components {
+    .social-link {
+        @apply flex items-center justify-center p-3 rounded-full bg-light-blue hover:bg-blue transition-all border-2 border-black;
+    }
     }
 
-    main{
-        @apply max-w-6xl mx-auto px-6 py-12;
+@layer components{
+    .footer-col{
+        @apply flex flex-col font-dm_sans text-text-light text-left;
+        
     }
 
-    @layer components {
-        .social-link {
-          @apply flex items-center justify-center p-3 rounded-full bg-light-blue hover:bg-blue transition-all border-2 border-black;
-        }
-      }
-
-    @layer components{
-        .footer-col{
-            @apply flex flex-col font-dm_sans text-text-light text-left;
-            
-        }
-
-        .footer-title{
-            @apply font-darker_grotesque text-text-dark uppercase font-bold pb-2;
-        }
-
+    .footer-title{
+        @apply font-darker_grotesque text-text-dark uppercase font-bold pb-2;
     }
+
+}

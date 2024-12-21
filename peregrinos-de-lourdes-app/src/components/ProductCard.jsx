@@ -40,8 +40,10 @@ const ProductCard = ({ image, name, description, price }) => {
         text={"Encomendar"}
         icon={<FaShoppingCart />}
         backgroundColor='bg-light-blue'
-        size='px-12 py-4'
+        size='px-10 py-1'
         hoverbackgroundColor={"hover:bg-blue"}
+        target={'_blank'}
+        link={'https://www.whatsapp.com/catalog/556199439655/?app_absent=0'}
       />
 
       {/* Modal com a imagem maior */}
