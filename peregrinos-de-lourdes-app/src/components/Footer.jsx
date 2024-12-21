@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="flex flex-col sm:flex-row sm:justify-around gap-10 lg:py-14 py-7 lg:px-4 px-4 sm:p-6">
         <div className='footer-col'>
           <div className='w-23'>
-            <a href="/"><img className='w-32' src="public/pnsl-logo.svg" alt="logo" /></a>
+            <a href="/"><img className='w-32' src="./pnsl-logo.svg" alt="logo" /></a>
           </div>
         </div>
 
