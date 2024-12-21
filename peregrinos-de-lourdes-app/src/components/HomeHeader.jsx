@@ -7,7 +7,7 @@ const HomeHeader = () => {
       <div className="relative w-full h-[90vh]">
         <img
           className="w-full h-full object-cover object-top"
-          src="public/nossa-senhora-de-lourdes-compressed.png" // Caminho correto
+          src="./nossa-senhora-de-lourdes-compressed.png" // Caminho correto
           alt="Nossa Senhora de Lourdes"
         />
         {/* Camada escura e título centralizado */}
