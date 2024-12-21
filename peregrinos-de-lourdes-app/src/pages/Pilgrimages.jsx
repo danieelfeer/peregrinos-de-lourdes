@@ -9,7 +9,7 @@ function Pilgrimages() {
   return (
     <>
         <DefaultHeader
-        imageSrc={"public/peregrinacoes.png"}
+        imageSrc={"./peregrinacoes.png"}
         title={"Peregrinações"}
         icon={FaRegMap}
         />
@@ -37,7 +37,7 @@ function Pilgrimages() {
             <PilgrimageCard 
                 year={"2022"}
                 emojiCountry={'flagBrazil'}
-                image={"public/pilgrimages/encontro-fortaleza.jpg"}
+                image={"./pilgrimages/encontro-fortaleza.jpg"}
                 city={"Fortaleza-CE"}
                 description={"Encontro Vocacional Regional"}
                 link={'https://www.instagram.com/p/CgsrEf9t57b/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=='}
@@ -49,7 +49,7 @@ function Pilgrimages() {
             <PilgrimageCard 
                 year={"2025"}
                 emojiCountry={'flagItaly'}
-                image={"public/rome-image.png"}
+                image={"./rome-image.png"}
                 city={"Roma, Itália"}
                 description={"Ano Jubilar"}
                 link={'/peregrinos-de-lourdes/#contagem_regressiva'}

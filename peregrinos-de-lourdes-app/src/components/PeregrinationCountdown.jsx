@@ -65,7 +65,7 @@ const PeregrinationCountdown = () => {
       title: 'Jornada Jubilar em Roma',
       description:
         'O Jubileu é um ano especial na Igreja Católica, dedicado ao perdão, à misericórdia e à renovação espiritual. Durante esse período, os fiéis têm a oportunidade de receber indulgências. Um dos principais símbolos do Jubileu é a Porta Santa, uma porta especial nas basílicas, como a de São Pedro em Roma, que é aberta apenas durante o Ano Santo. Atravessar essa porta representa uma jornada de fé e um convite ao encontro com a graça de Deus.',
-      image: 'public/rome-image.png', // Aqui é a imagem do card
+      image: './rome-image.png', // Aqui é a imagem do card
       link: 'https://www.iubilaeum2025.va/pt.html',
       buttonText: 'Saiba mais',
       size: 'lg:w-[800px] w-[90vw] lg:h-[500px] h-auto lg:p-10 md:p-10 py-10 ', // Tamanho do card
@@ -109,7 +109,7 @@ const PeregrinationCountdown = () => {
 
       {/* Cruz Branca, centralizada */}
       <div className="flex justify-center">
-        <img className="py-20 w-16" src="public/cruz-branca.svg" alt="Cruz Branca" />
+        <img className="py-20 w-16" src="./cruz-branca.svg" alt="Cruz Branca" />
       </div>
     </div>
   );

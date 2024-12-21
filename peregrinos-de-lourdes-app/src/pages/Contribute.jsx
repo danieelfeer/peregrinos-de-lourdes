@@ -9,7 +9,7 @@ function Contribute() {
   return (
     <>
         <DefaultHeader
-        imageSrc={"public/peregrinacoes.png"}
+        imageSrc={"./peregrinacoes.png"}
         title={"Contruibuir"}
         icon={BiDonateHeart}
         />

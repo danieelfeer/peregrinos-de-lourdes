@@ -37,11 +37,11 @@ function AboutUs() {
   return (
     <>
       <DefaultHeader
-        imageSrc="public/comunidade-1.png" // Caminho correto da imagem
+        imageSrc="./comunidade-1.png" // Caminho correto da imagem
         title="Sobre Nós"
         icon={''}
-        svgImage1={"public/pnsl-logo.svg"}
-        svgImage2={"public/virgem.svg"}
+        svgImage1={"./pnsl-logo.svg"}
+        svgImage2={"./virgem.svg"}
       />
       <main className='pt-0'>
         <div className="flex lg:flex-row flex-col lg:items-start md:items-center items-start justify-between gap-10 py-10">
@@ -70,7 +70,7 @@ function AboutUs() {
           
         </div>
         <div className='flex flex-col items-center'>    
-            <img src="public/comunidade-1.png" alt="comunidade 1" />
+            <img src="./comunidade-1.png" alt="comunidade 1" />
             <p className='font-dm_sans'>Comunidade 1 - Paróquia Nossa Senhora de Lourdes</p>
         </div>
       </main>

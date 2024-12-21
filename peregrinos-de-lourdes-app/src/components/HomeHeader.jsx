@@ -18,7 +18,7 @@ const HomeHeader = () => {
             <div className="relative mb-4 w-full flex justify-end">
               <img
                 className="w-[50%] sm:w-[30%] md:w-[25%] lg:w-[20%]" // Responsividade para a imagem
-                src="public/pnsl-logo-white.svg"
+                src="./pnsl-logo-white.svg"
                 alt="logo"
               />
             </div>
@@ -37,7 +37,7 @@ const HomeHeader = () => {
       {/* Div para o ícone abaixo do título */}
       <div className="flex items-center justify-center h-[10vh]">
         <div className="w-10">
-          <img src="public/pnsl-logo.svg" alt="logo" />
+          <img src="./pnsl-logo.svg" alt="logo" />
         </div>
       </div>
     </div>
