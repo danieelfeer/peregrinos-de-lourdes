@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'; // Importando o Link do react-router-do
 import SocialButtons from './SocialButtons';
 
 const NavMenu = () => {
+
   const [isOpen, setOpen] = useState(false);
   const [activeLink, setActiveLink] = useState('/'); // Estado para armazenar o link ativo
 
@@ -45,9 +46,9 @@ const NavMenu = () => {
         <ul className='flex flex-col items-center gap-7 font-dm_sans font-semibold space-y-4 lg:text-7xl text-5xl'>
           <li>
             <Link
-              to="/"
+              to="//"
               className={`text-black hover:text-red-blood flex items-center ${activeLink === '/' ? 'text-red-blood' : ''}`}
-              onClick={() => handleLinkClick('/')}
+              onClick={() => handleLinkClick('/peregrinos-de-lourdes/')}
             >
               {activeLink === '/' && <img src="./cruz-vermelha.svg" alt="Ícone Home" className="mr-2 w-10 h-10" />}
               Início
