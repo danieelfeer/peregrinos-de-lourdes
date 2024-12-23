@@ -16,7 +16,7 @@ const Welcome = () => {
         </h1>
         
         <p className="font-dm_sans text-lg mt-4 text-text-light text-center lg:w-[27rem] md:w-[30rem] w-auto py-4">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi obcaecati dolorem odio eum. Facere ipsa atque deleniti porro sapiente eum? Pariatur dolor consequatur recusandae aut soluta amet quasi inventore assumenda?
+          Olá! Somos um grupo de jovens peregrinos da Igreja Católica, levando o evangelho para todos os cantos do mundo e fortalecendo nossa fé em cada jornada. Neste site, você vai conhecer um pouco mais sobre nossa missão e como fazemos isso acontecer. Seja bem-vindo!
         </p>
         
         {/* Componente das redes sociais */}
