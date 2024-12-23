@@ -2,7 +2,6 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Peregrinos de Lourdes</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -10,7 +9,30 @@
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Darker+Grotesque:wght@300..900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
 
-    <link rel="shortcut icon" href="./public/pnsl-logo-white.svg" type="image/x-icon" >
+    <!-- Favicon inicial, para quando o JavaScript não estiver carregado ainda -->
+    <link id="favicon" rel="shortcut icon" href="./pnsl-logo-white.svg" type="image/x-icon">
+
+    <script>
+      // Detecta a preferência do tema claro ou escuro no navegador
+      const prefersDarkMode = window.matchMedia('(prefers-color-scheme: dark)');
+
+      function updateFavicon() {
+        const favicon = document.getElementById('favicon');
+        if (prefersDarkMode.matches) {
+          // Se o tema do navegador for escuro, altera o favicon
+          favicon.href = './pnsl-logo-white.svg'; // Caminho para o favicon do tema escuro
+        } else {
+          // Se o tema do navegador for claro, altera o favicon
+          favicon.href = './pnsl-logo.svg'; // Caminho para o favicon do tema claro
+        }
+      }
+
+      // Atualiza o favicon imediatamente ao carregar a página
+      updateFavicon();
+
+      // Escuta mudanças no tema do navegador e atualiza o favicon
+      prefersDarkMode.addEventListener('change', updateFavicon);
+    </script>
   </head>
   <body>
     <div id="root"></div>
