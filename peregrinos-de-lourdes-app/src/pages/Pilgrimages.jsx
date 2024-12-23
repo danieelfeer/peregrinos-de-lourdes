@@ -52,7 +52,7 @@ function Pilgrimages() {
                 image={"./rome-image.png"}
                 city={"Roma, Itália"}
                 description={"Ano Jubilar"}
-                link={'/peregrinos-de-lourdes/#contagem_regressiva'}
+                link={'/#contagem_regressiva'}
                 target={'_self'}
             />
 
@@ -62,7 +62,7 @@ function Pilgrimages() {
                 image={"https://img.cancaonova.com/cnimages/canais/uploads/sites/11/2024/09/logotipo-jmj-seul-2027-_-foto-reproducao-vatican-news-youtube.png"}
                 city={"Seoul, Koréia do Sul"}
                 description={"Jornada Mundial da Juventude (JMJ) 2027"}
-                link={'/peregrinos-de-lourdes/contribuir'}
+                link={'/contribuir'}
                 target={'_self'}
             />
 

@@ -23,7 +23,7 @@ const Home = () => {
           <TitleWithText 
             title={'Por que Ajudar os Peregrinos?'} 
             text={'Ajudar nosso grupo de peregrinos é apoiar uma jornada de fé e evangelização. Como diz a Bíblia: "Tudo o que fizerdes a um dos meus pequeninos, a mim o fizestes" (Mateus 25:40). Seu apoio nos permite espalhar o amor de Cristo, fortalecer nossa espiritualidade e levar a mensagem de esperança a mais pessoas. Cada gesto de ajuda faz nossa caminhada mais significativa e impacta vidas.'}
-            link={'/peregrinos-de-lourdes/contribuir'}
+            link={'/contribuir'}
           />
 
           <h2 className="font-darker_grotesque text-center text-5xl font-bold">
